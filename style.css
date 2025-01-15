@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.img-sign {
+  width: 415px;
+  height: 500px;
+  border-color: #38bdf8;
+  border: 5px;
+}
+.container-0 {
+  border-color: #38bdf8;
+  width: 825px;
+  position: relative;
+  margin: 0 auto;
+  background-color: #f0f9ff;
+  display: flex;
+  gap: 40px;
+}
+.container--1 {
+  align-self: center;
+  width: 415px;
+}
+.log-btn {
+  margin-top: 20px;
+  border-radius: 15px;
+  width: 200px;
+  height: 30px;
+
+  margin-left: 25px;
+  background-color: #1e40af;
+  color: white;
+  cursor: pointer;
+}
+.pswd {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  height: 25px;
+  width: 300px;
+}
+.mail {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  height: 25px;
+  width: 300px;
+}
+.label0 {
+  margin-top: 50px;
+}
+.intro {
+  margin-bottom: 25px;
+  color: #312e81;
+}
+.reme {
+  display: inline-block;
+  padding-top: 25px;
+}
+.et {
+  color: red;
+}
+.hidden {
+  display: none;
+}
+
+/* .nav-links ul {
+  display: flex;
+  flex-direction: column;
+}
+.nav-links {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+.menubtn {
+  position: relative;
+} */
+.centerdiv {
+  width: 825px;
+  position: relative;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  margin-top: 40px;
+  padding: 30px;
+  overflow-x: auto;
+}
+.bckimg {
+  background-image: url("imgstock/DESK7.jpg");
+  background-size: cover; /* Pour couvrir toute la fenêtre */
+  background-position: center; /* Pour centrer l'image */
+  background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
+  height: 100vh; /* Hauteur de la div équivalente à la hauteur de la fenêtre */
+}
+.bckimg1 {
+  background-image: url("imgstock/DESK7.jpg");
+  background-size: cover; /* Pour couvrir toute la fenêtre */
+  background-position: center; /* Pour centrer l'image */
+  background-repeat: repeat-y; /* Pour éviter la répétition de l'image */
+  height: 100vh; /* Hauteur de la div équivalente à la hauteur de la fenêtre */
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  padding: 45px;
+  text-align: center;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+th {
+  background-color: #f2f2f2;
+}
+.message-container {
+  padding-top: 3px;
+  margin-top: 5px;
+}
+.notification {
+  display: none;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+}
+#tabaff {
+  text-align: center;
+  font-size: small;
+}
+#listop {
+  font-size: xx-large;
+}
+#signaledep {
+  background-color: #dbedf5;
+  border-radius: 7px;
+}

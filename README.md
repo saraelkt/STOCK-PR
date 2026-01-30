@@ -2,36 +2,36 @@
 
 Application web de gestion du personnel pour LEONI, permettant la gestion complète des opérateurs, absences, entretiens et départs.
 
-## Vue d'ensemble
+##  Vue d'ensemble
 
 STOCK-PR est une application de gestion des ressources humaines développée pour LEONI, offrant une interface complète pour administrer le personnel opérationnel. Le système permet de suivre les employés, gérer leurs absences, planifier des entretiens et traiter les départs.
 
-## Fonctionnalités
+## ✨ Fonctionnalités
 
-### Gestion du Personnel
+###  Gestion du Personnel
 - **Ajout d'opérateurs** - Enregistrement de nouveaux employés avec informations complètes
 - **Gestion des profils** - Mise à jour et consultation des données des opérateurs
 - **Liste du personnel** - Vue d'ensemble de tous les employés
 
-### Gestion des Absences
+###  Gestion des Absences
 - **Enregistrement des absences** - Suivi des congés et absences
 - **Historique** - Consultation de l'historique des absences par employé
 - **Rapports** - Extraction de données et statistiques
 
-### Gestion des Entretiens
+###    Gestion des Entretiens
 - **Planification** - Création de nouveaux entretiens
 - **Suivi** - Gestion des entretiens programmés et réalisés
 - **Historique** - Consultation des entretiens passés
 
-### Gestion des Départs
+###  Gestion des Départs
 - **Signalement de départ** - Enregistrement des départs d'employés
 - **Procédures** - Gestion du processus de départ
 
-### Extractions
+###  Extractions
 - **Rapports personnalisés** - Génération de listes et extractions
 - **Export de données** - Extraction des informations pour analyse
 
-## Technologies
+##  Technologies
 
 - **Frontend**
   - HTML5
@@ -47,7 +47,7 @@ STOCK-PR est une application de gestion des ressources humaines développée pou
   - Node.js & npm
   - TailwindCSS CLI
 
-## Structure du Projet
+##  Structure du Projet
 
 ```
 STOCK-PR/
@@ -72,7 +72,7 @@ STOCK-PR/
     └── output.css               # TailwindCSS compilé
 ```
 
-## Installation
+##  Installation
 
 ### Prérequis
 
@@ -120,7 +120,7 @@ npx tailwindcss -i ./style.css -o ./dist/output.css --watch
 2. Assurez-vous que PHP et MySQL sont configurés correctement
 3. Accédez à l'application via `http://localhost/STOCK-PR/index.php`
 
-## Fonctionnalités principales par page
+##  Fonctionnalités principales par page
 
 ### index.php
 - Authentification des utilisateurs
@@ -146,7 +146,7 @@ npx tailwindcss -i ./style.css -o ./dist/output.css --watch
 - Création de nouveaux entretiens
 - Planification et suivi
 
-## Contribution
+##  Contribution
 
 Les contributions sont les bienvenues ! N'hésitez pas à :
 1. Fork le projet

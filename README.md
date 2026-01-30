@@ -120,62 +120,6 @@ npx tailwindcss -i ./style.css -o ./dist/output.css --watch
 2. Assurez-vous que PHP et MySQL sont configur√©s correctement
 3. Acc√©dez √† l'application via `http://localhost/STOCK-PR/index.php`
 
-## Ì¥ê Connexion
-
-Pour vous connecter √† l'application :
-
-- **Email** : Configuration dans `index.php`
-- **Mot de passe** : Configuration dans `index.php`
-
-> ‚ö†Ô∏è **Important** : Modifiez les identifiants de connexion par d√©faut pour des raisons de s√©curit√©.
-
-## Ìæ® Personnalisation TailwindCSS
-
-Le projet utilise TailwindCSS avec des couleurs personnalis√©es :
-
-```css
-/* Couleurs personnalis√©es LEONI */
-.bg-customBlue
-.text-customBlue
-.bg-Sky
-```
-
-Les classes personnalis√©es sont d√©finies dans `style.css` et compil√©es via TailwindCSS.
-
-## Ì≥ä Base de donn√©es
-
-L'application utilise une base de donn√©es MySQL nomm√©e `leoni` avec les tables principales :
-
-- **Op√©rateurs/Personnel** - Informations des employ√©s
-- **Absences** - Suivi des absences
-- **Entretiens** - Gestion des entretiens
-- **D√©parts** - Enregistrement des d√©parts
-
-## Ì¥ß Configuration
-
-### Configuration PHP
-
-Assurez-vous que votre `php.ini` a les extensions suivantes activ√©es :
-- `extension=pdo_mysql`
-- `extension=mysqli`
-
-### Configuration de la base de donn√©es
-
-Mettez √† jour les param√®tres de connexion dans chaque fichier PHP selon votre environnement :
-
-```php
-$dsn = 'mysql:host=VOTRE_HOST;dbname=VOTRE_DB';
-$user = 'VOTRE_USER';
-$psswd = 'VOTRE_PASSWORD';
-```
-
-## Ìºê Navigateurs support√©s
-
-- Google Chrome (recommand√©)
-- Mozilla Firefox
-- Microsoft Edge
-- Safari
-
 ## Ì≥ù Fonctionnalit√©s principales par page
 
 ### index.php
@@ -202,15 +146,6 @@ $psswd = 'VOTRE_PASSWORD';
 - Cr√©ation de nouveaux entretiens
 - Planification et suivi
 
-## Ì¥í S√©curit√©
-
-> ‚ö†Ô∏è **Recommandations importantes** :
-> - Changez les identifiants de connexion cod√©s en dur
-> - Utilisez des variables d'environnement pour les informations sensibles
-> - Impl√©mentez le hashage des mots de passe (password_hash())
-> - Ajoutez une protection CSRF
-> - Validez et sanitisez toutes les entr√©es utilisateur
-
 ## Ì¥ù Contribution
 
 Les contributions sont les bienvenues ! N'h√©sitez pas √† :
@@ -219,24 +154,3 @@ Les contributions sont les bienvenues ! N'h√©sitez pas √† :
 3. Commiter vos changements
 4. Pousser vers la branche
 5. Ouvrir une Pull Request
-
-## Ì±§ Auteur
-
-**saraelkt**
-- GitHub: [@saraelkt](https://github.com/saraelkt)
-
-## Ì≥Ñ Licence
-
-Ce projet est sous licence MIT - voir le fichier LICENSE pour plus de d√©tails.
-
-## Ìø¢ √Ä propos de LEONI
-
-Application d√©velopp√©e pour la gestion du personnel de LEONI, leader mondial dans la fabrication de syst√®mes de c√¢blage et de faisceaux pour l'industrie automobile.
-
-## Ì≥û Support
-
-Pour toute question ou probl√®me, n'h√©sitez pas √† ouvrir une issue sur GitHub.
-
----
-
-**Note** : Ce projet est destin√© √† un usage interne pour LEONI. Assurez-vous de respecter les politiques de confidentialit√© et de s√©curit√© de l'entreprise.

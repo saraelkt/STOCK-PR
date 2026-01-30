@@ -2,36 +2,36 @@
 
 Application web de gestion du personnel pour LEONI, permettant la gestion compl√®te des op√©rateurs, absences, entretiens et d√©parts.
 
-## Ì≥ã Vue d'ensemble
+##  Vue d'ensemble
 
 STOCK-PR est une application de gestion des ressources humaines d√©velopp√©e pour LEONI, offrant une interface compl√®te pour administrer le personnel op√©rationnel. Le syst√®me permet de suivre les employ√©s, g√©rer leurs absences, planifier des entretiens et traiter les d√©parts.
 
 ## ‚ú® Fonctionnalit√©s
 
-### Ì±• Gestion du Personnel
+###  Gestion du Personnel
 - **Ajout d'op√©rateurs** - Enregistrement de nouveaux employ√©s avec informations compl√®tes
 - **Gestion des profils** - Mise √† jour et consultation des donn√©es des op√©rateurs
 - **Liste du personnel** - Vue d'ensemble de tous les employ√©s
 
-### Ì≥Ö Gestion des Absences
+###  Gestion des Absences
 - **Enregistrement des absences** - Suivi des cong√©s et absences
 - **Historique** - Consultation de l'historique des absences par employ√©
 - **Rapports** - Extraction de donn√©es et statistiques
 
-### Ì≤º Gestion des Entretiens
+###    Gestion des Entretiens
 - **Planification** - Cr√©ation de nouveaux entretiens
 - **Suivi** - Gestion des entretiens programm√©s et r√©alis√©s
 - **Historique** - Consultation des entretiens pass√©s
 
-### Ì∫™ Gestion des D√©parts
+###  Gestion des D√©parts
 - **Signalement de d√©part** - Enregistrement des d√©parts d'employ√©s
 - **Proc√©dures** - Gestion du processus de d√©part
 
-### Ì≥ä Extractions
+###  Extractions
 - **Rapports personnalis√©s** - G√©n√©ration de listes et extractions
 - **Export de donn√©es** - Extraction des informations pour analyse
 
-## Ìª†Ô∏è Technologies
+##  Technologies
 
 - **Frontend**
   - HTML5
@@ -47,7 +47,7 @@ STOCK-PR est une application de gestion des ressources humaines d√©velopp√©e pou
   - Node.js & npm
   - TailwindCSS CLI
 
-## Ì≥Å Structure du Projet
+##  Structure du Projet
 
 ```
 STOCK-PR/
@@ -72,7 +72,7 @@ STOCK-PR/
     ‚îî‚îÄ‚îÄ output.css               # TailwindCSS compil√©
 ```
 
-## Ì∫Ä Installation
+##  Installation
 
 ### Pr√©requis
 
@@ -120,7 +120,7 @@ npx tailwindcss -i ./style.css -o ./dist/output.css --watch
 2. Assurez-vous que PHP et MySQL sont configur√©s correctement
 3. Acc√©dez √† l'application via `http://localhost/STOCK-PR/index.php`
 
-## Ì≥ù Fonctionnalit√©s principales par page
+##  Fonctionnalit√©s principales par page
 
 ### index.php
 - Authentification des utilisateurs
@@ -146,7 +146,7 @@ npx tailwindcss -i ./style.css -o ./dist/output.css --watch
 - Cr√©ation de nouveaux entretiens
 - Planification et suivi
 
-## Ì¥ù Contribution
+##  Contribution
 
 Les contributions sont les bienvenues ! N'h√©sitez pas √† :
 1. Fork le projet
